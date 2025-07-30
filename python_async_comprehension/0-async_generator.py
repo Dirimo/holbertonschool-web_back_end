@@ -1,3 +1,4 @@
+#!/usr/bin/python
 """
 This asynchronous generator function yields random float numbers
 between 0 and 10. It waits for 1 second between each yield
