@@ -22,7 +22,7 @@ export default class Currency {
     this._name = value;
   }
 
-  // Create a method to return the attributes in the following format : name (code)
+  // Create a method to return the attributes in the following format : name (code) where code is the currency code
   displayFullCurrency() {
     return `${this._name} (${this._code})`;
   }
